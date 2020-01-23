@@ -59,6 +59,9 @@ class Service(object):
 		"""
 		Service constructor.
 		[in] name - Service name.
+		[in] workerTimeout - Service worker timeout..
+		[in] numWorkerThreads - Count of service worker threads.
+		[in] jobQueueMaxSize - Service job queue max size.
 		"""
 
 		Log.debug(name)

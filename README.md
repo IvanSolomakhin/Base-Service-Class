@@ -65,6 +65,8 @@ def __init__(self, requestServiceName, requestMethod,requestArguments = None,
 
 **Example run** 
 
+Example of using base Service class.
+
 ```
 user@user-lws$ python3 example.py 
 [DEBUG, 22-Jan-20 14:22:51] __init__: Calculator
@@ -85,6 +87,8 @@ user@user-lws$ python3 example.py
 ```
 
 **Unittests** 
+
+Provided unit tests for service module.
 
 ```
 user@user-lws$ python3 -m unittest -v test

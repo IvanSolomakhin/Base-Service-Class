@@ -1,6 +1,5 @@
 """
-Module for creating services in independent threads using the base class Service.
-Base class Package is used for data transmission.
+Module for creating services, transferring requests and responses between them using the base class Service.
 """
 
 from threading import Thread

@@ -23,8 +23,8 @@ class Package(object):
 		"""
 		Package constructor.
 		[in] requestServiceName - Request service name.
-		[in] requestMethod, string - Request method in service.
-		[in] requestArguments,  - Request arguments for method, can be ignored.
+		[in] requestMethod - Request method in service.
+		[in] requestArguments  - Request arguments for method, can be ignored.
 		[in] responseServiceName - Response service name, can be ignored.
 		[in] responseMethod - Response method in service, can be ignored.
 		"""

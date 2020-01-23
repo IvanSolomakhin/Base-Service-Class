@@ -158,8 +158,8 @@ class Service(object):
 
 	def sendResponse(self, package):
 		"""
-		Sends responce to service
-		[in] package - Contained method and arguments to call in response service..
+		Sends responce to service.
+		[in] package - Contained method and arguments to call in response service.
 		"""
 
 		if package.responseServiceName == None:
